@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/stule.css">
+    <link rel="stylesheet" href="./CSS/reset.css">
+</head>
+<body>
+    <header class="header-background">
+        <div class="center center-margin">
+            <div class="header-flex-wrp">
+                <nav>
+                    <ul class="header-link-flex">
+                        <li><a class="header-link" href="#">Products</a></li>
+                        <li><a class="header-link" href="#">Resourses</a></li>
+                        <li><a class="header-link" href="#">Inspiration</a></li>
+                        <li><a class="header-link" href="#">Pricing</a></li>
+                    </ul>
+                </nav>
+                <img src="./img/logoMonkey.png" alt="logoMonkey">
+                <ul class="header-link-icon-flex">
+                    <li>
+                        <span class="header-link-tel">Sales:</span>
+                        <a class="header-link-tel" href="#" type="tel">+1 (800) 315-5939</a>
+                    </li>
+                    <li class="header-link-img-flex">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_1_37)">
+                            <path d="M10 0C4.47778 0.0222222 0 4.48889 0 10C0 11.9778 0.58649 13.9112 1.6853 15.5557C2.78412 17.2002 4.3459 18.4819 6.17317 19.2388C8.00043 19.9957 10.0111 20.1937 11.9509 19.8079C13.8907 19.422 15.6725 18.4696 17.0711 17.0711C18.4696 15.6725 19.422 13.8907 19.8079 11.9509C20.1937 10.0111 19.9957 8.00043 19.2388 6.17317C18.4819 4.3459 17.2002 2.78412 15.5557 1.6853C13.9112 0.58649 11.9778 0 10 0V0ZM10.4111 13.5778V10.4222H14.4111C14.3889 11.7333 14.2333 12.9778 13.9444 14.1556C12.7937 13.8236 11.6076 13.6297 10.4111 13.5778ZM12.5222 18.8C13.4615 17.7731 14.1466 16.54 14.5222 15.2C15.6111 15.5667 16.4111 15.9556 16.7778 16.1667C15.6358 17.4304 14.161 18.3468 12.5222 18.8111V18.8ZM10.4111 19.1222V14.4C11.5 14.4667 12.6111 14.6444 13.7111 14.9556C12.9778 17.3111 11.7444 18.8444 10.4111 19.1222ZM14.4556 4.65556C14.073 3.37224 13.413 2.18874 12.5222 1.18889C14.0778 1.63333 15.5 2.47778 16.6333 3.66667C15.9333 4.07778 15.2111 4.41111 14.4556 4.66667V4.65556ZM14.4111 9.57778H10.4111V6.2C11.6 6.17778 12.7667 6.03333 13.9 5.7C14.2111 6.92222 14.3778 8.22222 14.4111 9.58889V9.57778ZM10.4111 5.35556V0.877778C11.7 1.14444 12.9111 2.62222 13.6556 4.9C12.6333 5.18889 11.5222 5.34444 10.4111 5.34444V5.35556ZM19.1556 10.4222C19.0755 12.2635 18.4403 14.0375 17.3333 15.5111C16.9778 15.3 16.0556 14.8333 14.7444 14.3778C15.0556 13.1556 15.2111 11.8222 15.2556 10.4222H19.1556ZM19.1556 9.57778H15.2667C15.2548 8.18952 15.0682 6.80828 14.7111 5.46667C15.5444 5.16667 16.3778 4.77778 17.1889 4.33333C18.4 5.84444 19.0778 7.65555 19.1556 9.57778ZM5.23333 14.3C4.34444 14.6 3.48889 15.0111 2.67778 15.5111C1.56289 14.0402 0.919826 12.2659 0.833333 10.4222H4.72222C4.77778 11.8 4.94444 13.0889 5.22222 14.3H5.23333ZM0.844444 9.57778C0.921582 7.65741 1.61069 5.81202 2.81111 4.31111C3.25556 4.55556 4.12222 4.97778 5.32222 5.37778C4.96414 6.75754 4.77021 8.17476 4.74444 9.6H0.844444V9.57778ZM5.46667 15.1222C5.82488 16.4956 6.51121 17.7615 7.46667 18.8111C5.83192 18.345 4.36116 17.4286 3.22222 16.1667C3.94444 15.7333 4.7 15.3889 5.46667 15.1222ZM5.57778 10.4222H9.58889V13.5556C8.37778 13.5778 7.18889 13.7444 6.03333 14.0556C5.75527 12.8639 5.60627 11.6458 5.58889 10.4222H5.57778ZM9.58889 14.3778V19.1222C8.23333 18.8556 7 17.2667 6.25556 14.8556C7.33333 14.5667 8.44444 14.4 9.58889 14.3778ZM9.58889 6.17778V9.57778H5.58889C5.61111 8.18889 5.81111 6.83333 6.12222 5.6C7.26667 5.93333 8.44444 6.11111 9.58889 6.17778ZM3.38889 3.66667C4.50858 2.50067 5.92064 1.6565 7.47778 1.22222C6.7 2.02222 6.03333 3.16667 5.56667 4.61111C4.81896 4.3535 4.09109 4.04156 3.38889 3.67778V3.66667ZM9.58889 0.888889V5.33333C8.52222 5.26667 7.43333 5.11111 6.36667 4.8C7.1 2.6 8.3 1.14444 9.58889 0.877778V0.888889Z" fill="white"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_1_37">
+                            <rect width="20" height="20" fill="white"/>
+                            </clipPath>
+                            </defs>
+                        </svg>
+                        <a class="header-link-internet" href="#">Search</a>
+                    </li>
+                    <li><a class="log-in" href="#">Log in</a></li>
+                    <li><button class="header-button-sign-up-lst">Sign Up</button></li>
+                </ul>
+            </div>
+            <h1 class="header-title">Turn Emails into Revenue</h1>
+            <div class="header-text-button-wrp">
+                <p class="header-text">Win new customers with the #1 email marketing and automations brand* that recommends ways to get more opens, clicks, 
+                    and sales.</p>
+                <button class="header-button-sign-up">Sign Up</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="possibilities">
+            <div class="center">
+                <ul class="possibilities-img-flex">
+                    <li class="possibilities-img-background">
+                        <h2 class="heading-possibilities-img">Convert with Automations</h2>
+                        <img src="./img/possibilities1.jpg" alt="possibilities1">
+                        <div class="possibilities-img-text-wrp">
+                            <p class="possibilities-img-text">Send the right message at the right time to convert more customers.</p>
+                            <a class="possibilities-img-link" href="#">Learn more</a>
+                        </div>
+                    </li>
+                    <li class="possibilities-img-background">
+                        <h2 class="heading-possibilities-img">Optimize with AI & Analytics</h2>
+                        <img src="./img/possibilities2.jpg" alt="possibilities1">
+                        <div class="possibilities-img-text-wrp">
+                            <p class="possibilities-img-text">Get AI-assisted suggestions to help make your content more engaging.</p>
+                            <a class="possibilities-img-link" href="#">Learn more</a>
+                        </div>
+                    </li>
+                    <li class="possibilities-img-background">
+                        <h2 class="heading-possibilities-img">Target with Segmentation</h2>
+                        <img src="./img/possibilities3.jpg" alt="possibilities1">
+                        <div class="possibilities-img-text-wrp">
+                            <p class="possibilities-img-text">Boost customer loyalty by predicting the right ones to target.</p>
+                            <a class="possibilities-img-link" href="#">Learn more</a>
+                        </div>
+                    </li>
+                    <li class="possibilities-img-background">
+                        <h2 class="heading-possibilities-img">Sync with Integrations</h2>
+                        <img src="./img/possibilities4.jpg" alt="possibilities1">
+                        <div class="possibilities-img-text-wrp">
+                            <p class="possibilities-img-text">Connect more tools, get more data, save time, and make better decisions.</p>
+                            <a class="possibilities-img-link" href="#">Learn more</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="analyzing-data">
+            <p class="analyzing-data-text">Most email marketing platforms tell you how your campaigns perform. We analyze the data from the billions of emails 
+                we send to give you personalized recommendations for improving your content, targeting, and automations.</p>
+        </section>
+        <section class="price">
+            <div class="center">
+                <h2 class="price-right-plan">Find the right plan</h2>
+                <div class="table-flex">
+                    <table class="table-size">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th class="background-head-price"><p class="head-price">Mailchimp Recommends</p></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="border">
+                                    <h2 class="heading-price">Premium</h2>
+                                    <p class="description-text">Our most advanced tools, unlimited contacts, and priority support; built for teams.</p>
+                                    <p class="description-text margin-text">Starts at</p>
+                                    <p class="sign">$<span class="prince-dollar">350</span></p>
+                                    <p class="description-text margin-text">/month based on 10,000 contacts*</p>
+                                    <ul>
+                                        <li class="emerging-opportunities-margin">
+                                            <p class="emerging-opportunities">Phone & Priority Support</p>
+                                        </li>
+                                        <hr>
+                                        <li class="emerging-opportunities-margin">
+                                            <p class="emerging-opportunities">Custom-Coded and Pre-built Email <br>Templates</p>
+                                        </li>
+                                        <hr>
+                                        <li class="emerging-opportunities-margin">
+                                            <p class="emerging-opportunities">Multivariate and A/B Testing</p>
+                                        </li>
+                                        <hr>
+                                        <li class="emerging-opportunities-margin">
+                                            <p class="emerging-opportunities">Enhanced Automated Customer <br>Journeys</p>
+                                        </li>
+                                        <hr>
+                                        <li class="emerging-opportunities-margin">
+                                            <p class="emerging-opportunities">Predictive Segmentation</p>
+                                        </li>
+                                        <hr>
+                                        <li class="emerging-opportunities-margin"> 
+                                            <p class="emerging-opportunities">Dedicated Onboarding Specialist</p>
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td class="border">
+                                    <h2 class="heading-price">Standard</h2>
+                                    <p class="description-text">Sell even more with personalization, optimization tools, and enhanced automations.</p>
+                                    <p class="description-text margin-text">Starts at</p>
+                                    <p class="sign">$<span class="prince-dollar">20</span></p>
+                                    <p class="description-text margin-text">/month based on 500 contacts*</p>
+                                    <ul>
+                                        <li class="emerging-opportunities-margin">
+                                            <p class="emerging-opportunities">24/7 Email & Chat Support</p>
+                                        </li>
+                                        <hr>
+                                        <li class="emerging-opportunities-margin">
+                                            <p class="emerging-opportunities">Custom-Coded and Pre-built Email <br>Templates</p>
+                                        </li>
+                                        <hr>
+                                        <li class="emerging-opportunities-margin">
+                                            <p class="emerging-opportunities">A/B Testing</p>
+                                        </li>
+                                        <hr>
+                                        <li class="emerging-opportunities-margin">
+                                            <p class="emerging-opportunities">Enhanced Automated Customer <br>Journeys</p>
+                                        </li>
+                                        <hr>
+                                        <li class="emerging-opportunities-margin">
+                                            <p class="emerging-opportunities">Predictive Segmentation</p>
+                                        </li>
+                                        <hr>
+                                        <li class="emerging-opportunities-margin-disaibal">
+                                            <p class="emerging-opportunities-disaibal">Dedicated Onboarding Specialist</p>
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td class="border">
+                                    <h2 class="heading-price">Essentials</h2>
+                                    <p class="description-text">Send the right content at the right time with testing and scheduling features.</p>
+                                    <p class="description-text margin-text-botton">Starts at</p>
+                                    <p class="sign">$<span class="prince-dollar">13</span></p>
+                                    <p class="description-text margin-text">/month based on 500 contacts*</p>
+                                    <ul>
+                                        <li class="emerging-opportunities-margin">
+                                            <p class="emerging-opportunities">24/7 Email & Chat Support</p>
+                                        </li>
+                                        <hr>
+                                        <li class="emerging-opportunities-margin margin-emerging">
+                                            <p class="emerging-opportunities">Pre-built Email Templates</p>
+                                        </li>
+                                        <hr>
+                                        <li class="emerging-opportunities-margin">
+                                            <p class="emerging-opportunities">A/B Testing</p>
+                                        </li>
+                                        <hr>
+                                        <li class="emerging-opportunities-margin">
+                                            <p class="emerging-opportunities">Basic Automated Customer <br>Journeys</p>
+                                        </li>
+                                        <hr>
+                                        <li class="emerging-opportunities-margin-disaibal">
+                                            <p class="emerging-opportunities-disaibal">Predictive Segmentation</p>
+                                        </li>
+                                        <hr>
+                                        <li class="emerging-opportunities-margin-disaibal">
+                                            <p class="emerging-opportunities-disaibal">Dedicated Onboarding Specialist</p>
+                                        </li>
+                                </td>
+                                <td class="border">
+                                    <h2 class="heading-price">Free</h2>
+                                    <p class="description-text">Easily create email campaigns and learn more about your customers.</p>
+                                    <p class="sign wrp-sing">$<span class="prince-dollar">0</span></p>
+                                    <p class="description-text margin-text">Email support for first 30 days</p>
+                                    <ul>
+                                        <li class="emerging-opportunities-margin"> 
+                                            <p class="emerging-opportunities">Email support for first 30 days</p>
+                                        </li>
+                                        <hr>
+                                        <li class="emerging-opportunities-margin margin-emerging">
+                                            <p class="emerging-opportunities">Pre-built Email Templates</p>
+                                        </li>
+                                        <hr>
+                                        <li class="emerging-opportunities-margin-disaibal">
+                                            <p class="emerging-opportunities-disaibal">A/B Testing</p>
+                                        </li>
+                                        <hr>
+                                        <li class="emerging-opportunities-margin-disaibal">
+                                            <p class="emerging-opportunities-disaibal">Basic Automated Customer <br>Journeys</p>
+                                        </li>
+                                        <hr>
+                                        <li class="emerging-opportunities-margin-disaibal">
+                                            <p class="emerging-opportunities-disaibal">Predictive Segmentation</p>
+                                        </li>
+                                        <hr>
+                                        <li class="emerging-opportunities-margin-disaibal">
+                                            <p class="emerging-opportunities-disaibal">Dedicated Onboarding Specialist</p>
+                                        </li>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="price-warning">*<span class="price-warning-fat">Overages</span> apply if contact or email send limit is exceeded. Free plan sending will be paused if contact or email 
+                    send limit is exceeded. <a class="price-link" href="#">Learn more</a></p>
+                <div class="price-button-flex">
+                    <button class="price-button">See all plan details</button>
+                </div>
+            </div>
+        </section>
+        <section class="generate-up">
+            <div class="center">
+                <div class="generate-up-heading-center">
+                    <h2 class="generate-up-heading">Generate up to 4x more orders* with Customer Journey Builder automations</h2>
+                </div>
+                <div class="heading-items-flex">
+                    <img class="generate-up-img" src="./img/offers.jpg" alt="offers">
+                    <div class="heading-items-flex-wrp">
+                        <h3 class="heading-items">Convert more customers at scale</h3>
+                        <p class="generate-up-text">Drive more traffic and sales by setting up automations that trigger emails based on customer behavior with our 
+                            Customer Journey Builder.</p>
+                        <a class="generate-up-link" href="#">Learn more</a>
+                    </div>
+                </div>
+                <div class="heading-items-flex">
+                    <img src="./img/offers2.jpg" alt="offers2">
+                    <div class="heading-items-wrp">
+                        <h3 class="heading-items">Discover new ways to automate</h3>
+                        <p class="generate-up-text">Get a head start with pre-built journeys that help you cross-sell your products, recover abandoned carts, 
+                            re-engage existing customers, and win new ones.</p>
+                        <a class="generate-up-link" href="#">Learn more</a>
+
+                        <h3 class="heading-items">Keep your emails relevant and your brand growing</h3>
+                        <p class="generate-up-text">Deliver personalized emails based on their buying behavior, survey responses, chat interactions, and 
+                            support tickets to promote loyalty and growth.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="keep-customers">
+            <div class="center keep-customers-flex">
+                <div class="keep-customers-wrp">
+                    <h2 class="heading-keep-customers">Keep customers ready to buy with engaging content</h2>
+                    <div class="keep-customers-items-button">
+                        <span class="keep-customers-items">Content Optimizer</span>
+                        <button class="keep-customers-button">
+                            <svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5.99993 10.9997L0 1.39857L0.873999 0L5.99993 8.20253L11.1259 0L11.9999 1.39857L5.99993 10.9997Z" fill="#007C89"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <p class="keep-customers-text">Learn how your emails compare to the top-performing campaigns in your industry and get data-driven suggestions 
+                        for improving your copy, imagery, and layout.</p>
+                    <a class="keep-customers-link" href="#">Learn more</a>
+                    <hr>
+                    <div class="keep-customers-items-button">
+                        <span class="keep-customers-items">Creative Assistant</span>
+                        <button class="keep-customers-button">
+                            <svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5.99993 10.9997L0 1.39857L0.873999 0L5.99993 8.20253L11.1259 0L11.9999 1.39857L5.99993 10.9997Z" fill="#007C89"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <img src="./img/attractiveContent.jpg" alt="attractiveContent">
+            </div>
+        </section>
+        <section class="our-integrations">
+            <div class="center">
+                <h2 class="our-integrations-heading">Bring in more data, drive more growth with our integrations</h2>
+                <ul class="our-integrations-list-flex">
+                    <li class="integrations-list-img">
+                        <img class="integrations-img" src="./img/ourIntegration1.png" alt="ourIntegration1">
+                        <div class="integrations-company-flex">
+                            <h3 class="integrations-company">Canva</h3>
+                            <p class="integrations-company-text">Create compelling visuals for your marketing.</p>
+                        </div>
+                    </li>
+                    <li class="integrations-list-img">
+                        <img class="integrations-img" src="./img/ourIntegration2.png" alt="ourIntegration2">
+                        <div class="integrations-company-flex">
+                            <h3 class="integrations-company">Mailchimp for Salesforce</h3>
+                            <p class="integrations-company-text">Sync your Mailchimp subscribers and Salesforce® leads across platforms.</p>
+                        </div>
+                    </li>
+                    <li class="integrations-list-img">
+                        <img class="integrations-img" src="./img/ourIntegration3.png" alt="ourIntegration3">
+                        <div class="integrations-company-flex">
+                            <h3 class="integrations-company">Instagram</h3>
+                            <p class="integrations-company-text">Promote and share your Instagram posts in email campaigns.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img class="integrations-img" src="./img/ourIntegration4.png" alt="ourIntegration4">
+                        <h3 class="integrations-company">Shopify</h3>
+                        <p class="integrations-company-text">Sync Shopify customers, products, and purchase data to Mailchimp.</p>
+                    </li>
+                    <li>
+                        <img class="integrations-img" src="./img/ourIntegration5.png" alt="ourIntegration5">
+                        <h3 class="integrations-company">Google Analytics</h3>
+                        <p class="integrations-company-text">Unlock powerful insights with campaign, website, or landing page data.</p>
+                    </li>
+                    <li>
+                        <img class="integrations-img" src="./img/ourIntegration6.png" alt="ourIntegration6">
+                        <h3 class="integrations-company">WooCommerce</h3>
+                        <p class="integrations-company-text">Power your ecommerce store with smart marketing features.</p>
+                    </li>
+                    <li>
+                        <img class="integrations-img" src="./img/ourIntegration7.png" alt="ourIntegration7">
+                        <h3 class="integrations-company">QuickBooks Online</h3>
+                        <p class="integrations-company-text">Bring together your marketing tools and invoice data.</p>
+                    </li>
+                    <li>
+                        <img class="integrations-img" src="./img/ourIntegration8.png" alt="ourIntegration8">
+                        <h3 class="integrations-company">Squarespace Commerce</h3>
+                        <p class="integrations-company-text">Market your ecommerce business and drive sales.</p>
+                    </li>
+                    <li>
+                        <img class="integrations-img" src="./img/ourIntegration9.png" alt="ourIntegration9">
+                        <h3 class="integrations-company">Zapier</h3>
+                        <p class="integrations-company-text">Automatically pass data between web services without a single line of code.</p>
+                    </li>
+                </ul>
+                <p class="integrations-text">View all 300+ integrations</p>
+            </div>
+        </section>
+        <section class="disclaimers">
+            <h3 class="disclaimers-text">*Disclaimers</h3>
+            <p class="disclaimers-text">Mailchimp is the #1 email marketing and automation brand based on competitor brands' publicly available data on worldwide numbers of customers in 2021 / 2022.</p>
+            <p class="disclaimers-text">Generate up to 4X more orders with Customer Journey Builder automations based on orders generated through user's connected stores with automations versus when they used bulk emails.</p>
+            <p class="disclaimers-text">Get up to 88% more revenue based on emails sent with predicted segments against non-predictive segmented emails for users with connected stores only. Standard or Premium Plans only.</p>
+            <p class="disclaimers-text">Availability of features and functionality varies by plan type. For details, view plans and pricing</p>
+            <p class="disclaimers-text">Valid only for account holders who: (1) have a Free plan account associated with in-app, web or email promo message 
+                and (2) upgrade to [Standard] plan and enter valid payment information through the “Redeem Offer” button. If you 
+                receive the offer in-app, you are no longer eligible once you dismiss the in-app message unless you snooze the 
+                offer, in which case it will be offered again 24+ hours later. Offer ends at 11:59 PM ET on 11/14/2022. Depending on 
+                how many contacts you have when you redeem, you will be placed into different [Standard] plan tiers with different 
+                monthly send limits. Offset includes a 100% discount to your recurring monthly plan charges for first 2 monthly bills
+                on promo plan, not including add-on fees or one-time fees. You will lose the offer if you change your plan type, 
+                pause, or cancel your account. One offer redemption per Mailchimp account.</p>
+            <p class="disclaimers-text">Once discount ends, you will be automatically charged the [Standard] plan rate currently in effect without the discount based on your contacts and email sends, which will automatically renew monthly.</p>
+            <p class="disclaimers-text">See full offer terms here</p>
+        </section>
+    </main>
+    <footer class="footer">
+        <ul>
+            <li><span class="footer-heading-link">Related Links:</span></li>
+            <li><a class="heading-link-question" href="#">Website Builder</a></li>
+            <li><a class="heading-link-question" href="#">Canva</a></li>
+            <li><a class="heading-link-question" href="#">The Picture Perfect Guide on How to Use Pinterest</a></li>
+        </ul>
+        <hr>
+        <ul>
+            <li><span class="footer-heading-link">Products</span></li>
+            <li><a class="link-question" href="#">Why Mailchimp?</a></li>
+            <li><a class="link-question" href="#">Product Updates</a></li>
+            <li><a class="link-question" href="#">Email Marketing</a></li>
+            <li><a class="link-question" href="#">Websites</a></li>
+            <li><a class="link-question" href="#">Transactional Email</a></li>
+            <li><a class="link-question" href="#">How We Compare</a></li>
+            <li><a class="link-question" href="#">GDPR Compliance</a></li>
+            <li><a class="link-question" href="#">Security</a></li>
+            <li><a class="link-question" href="#">Status</a></li>
+            <li><a class="link-question" href="#">Mobile App</a></li>
+        </ul>
+        <ul>
+            <li><span class="footer-heading-link">Resources</span></li>
+            <li><a class="link-question" href="#">Marketing Library</a></li>
+            <li><a class="link-question" href="#">Free Marketing Tools</a></li>
+            <li><a class="link-question" href="#">Marketing Glossary</a></li>
+            <li><a class="link-question" href="#">Integrations Directory</a></li>
+        </ul>
+        <ul>
+            <li><span class="footer-heading-link">Community</span></li>
+            <li><a class="link-question" href="#">Agencies & Freelancers</a></li>
+            <li><a class="link-question" href="#">Developers</a></li>
+            <li><a class="link-question" href="#">Events</a></li>
+        </ul>
+        <ul>
+            <li><span class="footer-heading-link">Company</span></li>
+            <li><a class="link-question" href="#">Our Story</a></li>
+            <li><a class="link-question" href="#">Newsroom</a></li>
+            <li><a class="link-question" href="#">Give Where You Live</a></li>
+            <li><a class="link-question" href="#">Annual Report</a></li>
+            <li><a class="link-question" href="#">Careers</a></li>
+            <li><a class="link-question" href="#">Accessibility</a></li>
+        </ul>
+        <ul>
+            <li><span class="footer-heading-link">Help</span></li>
+            <li><a class="link-question" href="#">Contact Us</a></li>
+            <li><a class="link-question" href="#">Hire an Expert</a></li>
+            <li><a class="link-question" href="#">Help Center</a></li>
+            <li><a class="link-question" href="#">Talk to Sales</a></li>
+        </ul>
+        <ul>
+            <li>
+                <img src="./img/Logofooter1.png" alt="Logofooter1">
+                <p class="text-podcasts">Films, podcasts, and original series that celebrate the entrepreneurial spirit.</p>
+                <a class="link-podcasts" href="#">Check it out</a>
+            </li>
+            <li>
+                <img src="./img/Logofooter2.png" alt="Logofooter2">
+                <p class="text-podcasts">Expert insights, industry trends, and inspiring stories that help you live and work on your own terms.</p>
+                <a class="link-podcasts" href="#">Learn more</a>
+            </li>
+        </ul>
+        <hr>
+        <ul>
+            <li>
+                <img src="./img/linkStorAppple.png" alt="linkStorAppple">
+            </li>
+            <li>
+                <img src="./img/linkGooflePlay.png" alt="linkGooflePlay">
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="./img/ico1.svg" alt="ico1">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./img/ico2.svg" alt="ico2">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./img/ico3.svg" alt="ico3">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./img/ico4.svg" alt="ico4">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./img/ico5.svg" alt="ico5">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./img/ico6.svg" alt="ico6">
+                </a>
+            </li>
+        </ul>
+        <h2 class="heading-rights">This page is now available in other languages.</h2>
+        <p class="rights-text">©2001-2022 All Rights Reserved. Mailchimp® is a registered trademark of The Rocket Science Group. Apple and the Apple 
+            logo are trademarks of Apple Inc. Mac App Store is a service mark of Apple Inc. Google Play and the Google Play logo 
+            are trademarks of Google Inc. <span>Privacy | Terms |</span></p>
+        <a class="rights-text-link" href="#">Cookie Preferences</a>
+    </footer>
+</body>
+</html>
